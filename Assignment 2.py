@@ -51,7 +51,7 @@ class Library:
             else:
                 status = "Borrowed"
 
-            print("----------------------------------")
+            print("Data")
             print("Book ID :", book.book_id)
             print("Title   :", book.title)
             print("Author  :", book.author)
@@ -125,3 +125,15 @@ while True:
 
     else:
         print("Invalid Choice! Please Try Again.\n")
+        #===== Library Management System =====
+#1. Add Book
+#2. Register Patron
+#3. Display Books
+#4. Borrow Book
+#5. Return Book
+#6. Exit
+#Enter your choice: 1
+#Enter Book ID: patron_id
+#Enter Book Title: Patron
+#Enter Author Name: xyz
+#Book Added Successfully!
